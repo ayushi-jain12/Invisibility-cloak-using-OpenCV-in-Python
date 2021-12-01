@@ -1,1 +1,3 @@
 # Invisibility-cloak-using-OpenCV-in-Python
+
+This program that uses color segmentation and image processing to replace the foreground object of interest with the background. I made it using numpy, time and OpenCV libraries in python. The program basically detects red colored cloth using color detection and segmentation algorithm. A mask is generated which determines the region in the frame corresponding to the detected color. The mask is then refined and then used for segmenting out the cloth from the frame. Finally, the pixel values of the detected red color region are replaced with corresponding pixel values of the static background which finally generates an augmented output which creates the magical effect, converting the cloth into an invisibility cloak.
